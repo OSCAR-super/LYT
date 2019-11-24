@@ -83,8 +83,8 @@ public class Miketea implements Ishop {
 
                     if ((arrayList2.get(i)<d+bubble.leixing2()&&arrayList3.get(i)==mo)||(arrayList3.get(i)==mo-1&&last-arrayList2.get(i)+d<bubble.leixing2())){
                         System.out.println(bubble.toString());
-                        int x=1;
-                        miketea.add(x);
+                        
+                        miketea.add(bubble);
                         arrayList1.remove(i);
                         arrayList2.remove(i);
                         arrayList3.remove(i);
@@ -109,8 +109,8 @@ public class Miketea implements Ishop {
                     }
                     if ((arrayList2.get(i)<d+coconut.leixing2()&&arrayList3.get(i)==mo)||(arrayList3.get(i)==mo-1&&last-arrayList2.get(i)+d<coconut.leixing2())){
                         System.out.println(coconut.toString());
-                        double y=2;
-                        miketea.add(y);
+                        
+                        miketea.add(coconut);
                         arrayList1.remove(i);
                         arrayList2.remove(i);
                         arrayList3.remove(i);
