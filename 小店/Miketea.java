@@ -138,11 +138,11 @@ public class Miketea implements Ishop {
     }
 
     @Override
-    public void add(int x) {
+    public void add(Bubble bubble) {
         System.out.println("加入了珍珠配料！");
     }
     @Override
-    public void add(double y) {
+    public void add(Coconut coconut) {
         System.out.println("加入了椰果配料！");
     }
     public static void run(){
